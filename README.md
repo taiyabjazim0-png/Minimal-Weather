@@ -1,16 +1,50 @@
-# weatherapp
+# Minimal Weather
 
-A new Flutter project.
+A simple Flutter weather application that displays real-time weather data with a clean and minimal interface.
+
+This project was built to learn Flutter fundamentals, REST API integration, charting, and basic state management.
+
+---
+
+## Features
+- Fetches real-time weather data using a weather API
+- Displays temperature, weather condition, and basic weather statistics
+- Weather visualization using `fl_chart`
+- Lightweight and minimal UI
+- Android support
+
+---
+
+## Platform Support
+
+### Android
+- Fully supported
+- Location permission implemented and functional
+
+### iOS
+- Location-based weather is **not implemented**
+- The app relies on default or manually configured city data
+- iOS permission handling is intentionally omitted for now
+
+---
+
+## Tech Stack
+- Flutter
+- Dart
+- REST API
+- fl_chart
+- geolocator (Android only)
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK installed
+- Android Studio or VS Code
+- Active internet connection
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/taiyabjazim0-png/Minimal-Weather.git
